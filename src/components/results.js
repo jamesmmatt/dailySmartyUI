@@ -1,10 +1,9 @@
-import React, { Component } from  'react' ;
+import React, { Component } from 'react';
 import Logo from './logo';
-
 
 class Results extends Component {
     render() {
-        return(
+        return (
             <div>
                 <h1>Results</h1>
                 <Logo/>
@@ -12,3 +11,4 @@ class Results extends Component {
         )
     }
 }
+export default Results; 
